@@ -1,2 +1,7 @@
 alert('bienvenu dans ce onzième episode');
-    var nombreUn = prompt('apprenez votre table de multiplication en choisissant un nombre!');
+  var nombreUn = parseInt(prompt('entrez un nombre'));
+  var i = 1;
+    while(i<=10){
+  var compteur = nombreUn*i;
+alert(nombreUn + "*" + i + "=" + compteur); i++
+  }
